@@ -4,8 +4,6 @@ Current Node version v14.18.1
 
 # NFT Engine 🛥
 
-![](https://github.com/HashLips/hashlips_art_engine/blob/main/banner.png)
-
 Create generative art by using the canvas api and node js. Before you use the generation engine, make sure you have node.js installed.
 
 ## Installation 🛠️
