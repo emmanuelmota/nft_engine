@@ -9,8 +9,8 @@ const { NETWORK } = require(path.join(basePath, "constants/network.js"));
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Hippo Husters";
+const description = "A collection of Hippos Who are Hustlers";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -26,17 +26,18 @@ const solanaMetadata = {
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
+// Layers are listed fron back to front
 const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "BG" },
+      { name: "Hippo" },
+      { name: "Clothes" },
+      { name: "Headwear" },
+      // { name: "Shine" },
+      // { name: "Bottom lid" },
+      // { name: "Top lid" },
     ],
   },
 ];
@@ -46,8 +47,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 600,
+  height: 600,
 };
 
 const gif = {
