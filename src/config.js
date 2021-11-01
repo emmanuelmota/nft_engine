@@ -29,7 +29,7 @@ const solanaMetadata = {
 // Layers are listed fron back to front
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "BG" },
       { name: "Hippo" },
