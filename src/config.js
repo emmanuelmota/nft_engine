@@ -29,15 +29,16 @@ const solanaMetadata = {
 // Layers are listed fron back to front
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 100,
     layersOrder: [
-      { name: "BG" },
+      { name: "Scene" },
       { name: "Hippo" },
-      { name: "Clothes" },
-      { name: "Headwear" },
-      // { name: "Shine" },
-      // { name: "Bottom lid" },
-      // { name: "Top lid" },
+      { name: "Eyes" },
+      { name: "Drip" },
+      { name: "Bling" },
+      { name: "Grill" },
+      { name: "Lid" },
+      { name: "Embellishment" },
     ],
   },
 ];
@@ -47,8 +48,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 600,
-  height: 600,
+  width: 690,
+  height: 690,
 };
 
 const gif = {
