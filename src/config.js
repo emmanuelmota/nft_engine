@@ -33,12 +33,12 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Scene" },
       { name: "Hippo" },
-      { name: "Eyes" },
       { name: "Drip" },
       { name: "Bling" },
       { name: "Grill" },
-      { name: "Lid" },
+      { name: "Eyes" },
       { name: "Embellishment" },
+      { name: "Lid" },
     ],
   },
 ];
